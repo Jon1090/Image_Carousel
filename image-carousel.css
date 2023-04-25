@@ -1,0 +1,80 @@
+.imageCarousel {
+    max-width: 90%;
+    margin: auto;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.imageWrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.slideNumber {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#nextButton {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 76%;
+    width: 100px;
+}
+
+#prevButton {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 0px;
+    width: 100px;
+}
+
+.circleNav {
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+.circle {
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: gray;
+}
+
+.circle:hover {
+    background-color: #a0acb6;
+}
+
+.slidesButton { 
+    display: inline-block;
+    width: 100%;
+}
+
+.buttonStyle1 {
+    background-color: grey;
+    border: none;
+    border-radius: 25%;
+}
+
+.buttonStyle1:hover {
+    background-color: #a0acb6;
+}

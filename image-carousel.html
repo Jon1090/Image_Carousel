@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="image-carousel.css" rel="stylesheet">
+    <script src="image-carousel.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="imageCarousel">
+        <!-- images in carousel -->
+        <div class="imageWrapper">
+            <div class="slideNumber">1 / 4</div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Un1.svg/1200px-Un1.svg.png" alt="Number 1">
+            <div class="caption"></div>
+        </div>
+        <div class="imageWrapper">
+            <div class="slideNumber">2 / 4</div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Deux.svg/1200px-Deux.svg.png" alt="Number 2">
+            <div class="caption"></div>
+        </div>
+        <div class="imageWrapper">
+            <div class="slideNumber">3 / 4</div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Trois.svg/1200px-Trois.svg.png" alt="Number 3">
+            <div class="caption"></div>
+        </div>
+        <div class="imageWrapper">
+            <div class="slideNumber">4 / 4</div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Quatre.svg/1200px-Quatre.svg.png">
+            <div class="caption"></div>
+        </div>
+
+        <!--buttons to advance slides or go back -->
+        <div class="slidesButton">
+            <button id="nextButton" class="buttonStyle1" onClick="changeSlide(1)">Next</button>
+            <button id="prevButton" class="buttonStyle1" onClick="changeSlide(-1)">Previous</button> 
+        </div>
+
+        <!--Dots to show position of current slide and click to move slide-->
+        <div class="circleNav">
+            <span class="circle" onClick="setSlide(0)"></span>
+            <span class="circle" onClick="setSlide(1)"></span>
+            <span class="circle" onClick="setSlide(2)"></span>
+            <span class="circle" onClick="setSlide(3)"></span>
+        </div>
+    </div>
+</body>
+</html>
